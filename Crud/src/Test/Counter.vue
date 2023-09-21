@@ -35,7 +35,7 @@ dec() {
 <template>
   <h1>Counter App</h1>
 
-  <button @click="inc">Inc</button>
-  <button @click="dec">Dec</button>
+  <button  @click="inc">Inc</button>
+  <button :disabled="count<=0" @click="dec">Dec</button>
   <h4>{{ count }}</h4>
 </template>
