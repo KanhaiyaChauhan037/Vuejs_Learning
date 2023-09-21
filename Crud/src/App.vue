@@ -6,8 +6,8 @@ import FormVue from "./Test/Form.vue";
 </script>
 
 <template>
-  <!-- <Counter /> -->
-  <FormVue/>
+  <Counter />
+  <!-- <FormVue/> -->
 </template>
 
 
